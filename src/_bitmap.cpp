@@ -33,7 +33,7 @@ bool _Bitmap::checkBit(int _bit)
     int* _indexes = resolvePosition(_bit);
     int number_index = _indexes[0];
     int bit_index = _indexes[1];
-    return shiftBitLeft(1,bit_index) & _array[number_index];
+    return checkBit(_array[number_index,bit_index]);
 }
 
 int* _Bitmap::resolvePosition(int _bit)
