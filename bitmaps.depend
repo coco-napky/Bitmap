@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1431227140 source:c:\users\napky\documents\p1_tareas\tarea_2\ejercicio_2\bitmaps\main.cpp
+	<iostream>
+	<stdio.h>
+	<bitset>
+	"_bitmap.h"
+
+1431232026 c:\users\napky\documents\p1_tareas\tarea_2\ejercicio_2\bitmaps\include\_bitmap.h
+	<math.h>
+
+1431231587 source:c:\users\napky\documents\p1_tareas\tarea_2\ejercicio_2\bitmaps\src\_bitmap.cpp
+	"_bitmap.h"
+
